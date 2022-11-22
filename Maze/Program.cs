@@ -1,5 +1,8 @@
 ﻿using Maze;
 
+Console.ForegroundColor = ConsoleColor.Green;
+Console.BackgroundColor = ConsoleColor.Red;
+
 List<List<Field>> maze = new List<List<Field>>();
 
 for (Int32 i = 0; i < 20; ++i)
